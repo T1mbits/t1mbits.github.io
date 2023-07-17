@@ -1,0 +1,71 @@
+/* color palate
+#F2D8D8
+#5C8984
+#545B77
+#374259
+*/
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	width: 100vw;
+	height: 50px;
+	background-color: #374259;
+}
+
+header a {
+	width: 75px;
+	height: 50px;
+	text-decoration: none;
+	color: #fefefe;
+	float: left;
+	text-align: center;
+	padding: 11px;
+	transition: 0.3s;
+	user-select: none;
+	cursor: pointer;
+}
+
+header a:hover {
+	background-color: #545b77;
+	color: #fefefe;
+}
+
+header a#header_active {
+	background-color: #5c8984;
+}
+
+main#home {
+	width: 100vw;
+	height: calc(100vh - 50px);
+	background-color: #f2d8d8;
+}
+
+main#about {
+	width: 100vw;
+	height: calc(100vh - 50px);
+	background-color: red;
+}
+
+main#filler {
+	width: 100vw;
+	height: calc(100vh - 50px);
+	background-color: blue;
+}
+
+footer {
+	color: #fefefe;
+	width: 100vw;
+	height: 200px;
+	background-color: #374259;
+	display: flex;
+}
+
+footer .footer_section {
+	width: calc(100vw / 3);
+	height: 200px;
+	text-align: center;
+	padding: 20px;
+}
