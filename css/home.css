@@ -58,14 +58,54 @@ main#filler {
 footer {
 	color: #fefefe;
 	width: 100vw;
-	height: 200px;
+	height: 105px;
 	background-color: #374259;
 	display: flex;
+	flex-direction: column;
 }
 
-footer .footer_section {
-	width: calc(100vw / 3);
-	height: 200px;
+footer top {
+	width: 100vw;
+	height: 55px;
 	text-align: center;
-	padding: 20px;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+}
+
+.mystery_middle {
+	width: 30vw;
+	height: 50px;
+	text-align: left;
+	border-right: 1px solid #545b77;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.contact {
+	width: 70vw;
+	height: 50px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.quicklinks {
+	width: 100vw;
+	height: 50px;
+	text-align: left;
+	border-top: 1px solid #545b77;
+	padding: 10px;
+}
+
+.quicklinks a {
+	color: #fefefe;
+	text-decoration: none;
+	padding-left: 40px;
+}
+
+.quicklinks a:hover {
+	color: #fefefe;
+	cursor: pointer;
+	text-decoration: underline;
 }
